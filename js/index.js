@@ -1,4 +1,6 @@
 $(function () {
+    $("#loading").slideUp(1000);
+    $("body").css({ overflow: "auto" });
     let sideBarWidth = $("#innerSide").innerWidth();
      $("#sideBar").css("left", -sideBarWidth);
     $('#sideBar i').click(function () {
